@@ -7,7 +7,6 @@ var ConfirmBattleContainer = React.createClass({
     router: React.PropTypes.object.isRequired
   },
   getInitialState: function () {
-    console.log('getInitialState');
     return {
       isLoading: true,
       playersInfo: []
